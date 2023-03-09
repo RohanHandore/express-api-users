@@ -5,7 +5,7 @@ import morgan from 'morgan'
 
 
 // const cors = require("cors");
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 const app = express();
 app.use(morgan(':method :url'));
 
